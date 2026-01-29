@@ -8,14 +8,6 @@ TOKEN = 8528886056:AAG8QLcSud9-_jEqV4KU_4ePJi_xdWehQzM
 # Ваше заготовленное сообщение
 PREPARED_MESSAGE = "https://t.me/bh6hg45345t234"
 
-*Что умеет этот бот:*
-1. Просто отправляет этот текст.
-2. Работает 24/7 как переходник.
-3. Можно легко изменить это сообщение.
-
-Связь с создателем: @ваш_юзернейм
-"""
-
 # Функция-обработчик для команды /start
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(PREPARED_MESSAGE, parse_mode='Markdown')
@@ -57,3 +49,4 @@ def main():
 if __name__ == '__main__':
 
     main()
+
