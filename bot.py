@@ -3,11 +3,10 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Токен вашего бота. Мы получим его из переменной окружения (безопаснее)
-TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+TOKEN = 8528886056:AAG8QLcSud9-_jEqV4KU_4ePJi_xdWehQzM
 
 # Ваше заготовленное сообщение
-PREPARED_MESSAGE = """
-Привет! Это заготовленное сообщение.
+PREPARED_MESSAGE = "https://t.me/bh6hg45345t234"
 
 *Что умеет этот бот:*
 1. Просто отправляет этот текст.
@@ -56,4 +55,5 @@ def main():
         app.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == '__main__':
+
     main()
