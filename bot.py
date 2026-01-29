@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Токен вашего бота. Мы получим его из переменной окружения (безопаснее)
-TOKEN = 8528886056:AAG8QLcSud9-_jEqV4KU_4ePJi_xdWehQzM
+TOKEN = "8528886056:AAG8QLcSud9-_jEqV4KU_4ePJi_xdWehQzM"
 
 # Ваше заготовленное сообщение
 PREPARED_MESSAGE = "https://t.me/bh6hg45345t234"
@@ -49,4 +49,5 @@ def main():
 if __name__ == '__main__':
 
     main()
+
 
